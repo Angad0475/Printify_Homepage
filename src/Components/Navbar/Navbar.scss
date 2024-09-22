@@ -1,0 +1,146 @@
+$color1: #39b75d;
+.navbar {
+    display: flex;
+    box-shadow: 0px 1px  0px rgb(205, 203, 203);
+    position: sticky;
+    top: 0; /* This ensures it sticks to the top */
+    z-index:100; 
+    height:5em;/* Optional: Helps to stay above other elements */
+    background-color: white;
+}
+.toggle-btn{
+
+    .toggle{
+        height:4rem;
+        width:3rem;
+        color: $color1;
+        position:relative;
+        left:50px;
+    }
+}
+.nav_logo{
+    display:flex;
+    padding-left:40px;
+
+    .logo{
+    width:3em;
+    height:3em;
+    padding-top:7px;
+    }
+}
+.logo_name{
+
+        color:$color1;
+        font-weight: bolder;
+        font-size:30px;
+        position:relative;
+        top:-20px;
+        left:-10px;
+        
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+.nav-menu{
+    display:flex;
+    align-items: center;
+    list-style:none;
+    gap:30px;
+
+    position:relative;
+    top:-15px;
+    left:80px;
+    justify-content: center;
+ 
+    li{
+        cursor:pointer;
+        font-size:larger;
+        color:rgb(66, 64, 64);
+        font-weight: 500;
+
+        &:hover{
+        color:$color1;
+        transition:0.2s;
+        }   
+
+    }
+}
+
+@mixin plain_text_box{
+    border-radius: 4px;
+    width: 90px;
+    height: 32px;
+    padding:5px;
+    font-size:20px;
+    position:relative;
+    right:-8em;
+    top:0.5em;
+    background-color: white;
+    border-style: none;
+    border:0.5px solid rgb(151, 148, 148);
+    cursor:pointer;
+}
+@mixin plain_word{
+    position:relative;
+    top:-15px;
+    text-align: center;
+    text-decoration: solid;
+    font-family:monospace;
+    font-weight:bold;
+
+    &:hover{
+        color:$color1;
+        transition:0.2s;
+    }
+}
+
+@mixin green_text_box{
+    border-radius: 4px;
+    width: 90px;
+    height: 32px;
+    padding:5px;
+    font-size:20px;
+    position:relative;
+    right:-9em;
+    top:0.5em;
+    background-color: white;
+    border-style: none;
+    border:0.5px solid rgb(151, 148, 148);
+    background-color: $color1;
+    cursor:pointer;
+
+    &:hover{
+        background-color: #319c4f;
+        transition:0.2s;
+    }
+}
+
+@mixin green_word{
+    position:relative;
+    top:-15px;
+    text-align: center;
+    text-decoration: solid;
+    font-family:monospace;
+    color:white;
+    font-weight: bold;
+
+
+}
+.logIn{
+     @include plain_text_box; 
+
+
+    .log{
+        @include plain_word;
+
+    }
+} 
+
+
+.signIn{
+    @include green_text_box;
+
+    .sign{
+        @include  green_word;
+    }
+}
+

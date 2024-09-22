@@ -1,0 +1,148 @@
+$color1: #39b75d;
+
+
+@mixin plain_text_box{
+    border-radius: 4px;
+    width: 90px;
+    height: 32px;
+    padding:5px;
+    font-size:20px;
+    position:relative;
+    right:-8em;
+    top:0.5em;
+    background-color: white;
+    border-style: none;
+    border:0.5px solid rgb(151, 148, 148);
+    cursor:pointer;
+}
+@mixin plain_word{
+    position:relative;
+    top:-15px;
+    text-align: center;
+    text-decoration: solid;
+    font-family:monospace;
+    font-weight:bold;
+
+    &:hover{
+        color:$color1;
+        transition:0.2s;
+    }
+}
+
+@mixin green_text_box{
+    border-radius: 4px;
+    width: 90px;
+    height: 32px;
+    padding:5px;
+    font-size:20px;
+    position:relative;
+    right:-9em;
+    top:0.5em;
+    background-color: white;
+    border-style: none;
+    border:0.5px solid rgb(151, 148, 148);
+    background-color: $color1;
+    cursor:pointer;
+
+    &:hover{
+        background-color: #319c4f;
+        transition:0.2s;
+    }
+}
+
+@mixin green_word{
+    position:relative;
+    top:-15px;
+    text-align: center;
+    text-decoration: solid;
+    font-family:monospace;
+    color:white;
+    font-weight: bold;
+
+
+}
+
+
+.hero{
+    display:flex;
+    background: linear-gradient(105deg, #fff 80%, rgba(218, 221, 224, 0.794) 40%);
+}
+.heading{
+    padding-left: 7em;
+}
+.heading-title{
+    font-size:3.5em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.description{
+    font-size:1.4em;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:medium;
+    color:rgb(124, 121, 121);
+
+    li{
+        list-style: none;
+        position:relative;
+        left:-2.0em;
+        line-height: 2em;
+    }
+}
+.d{
+    color:$color1;
+}
+
+.box{
+    display:flex;
+    position:relative;
+    left:-1em;
+
+    .start_box{
+        @include green_text_box;
+        position:relative;
+        left:1em;
+        width:max-content;
+        height:1.8em;
+        padding:0.7em;
+    } 
+    .start{
+        @include green_word;
+    }
+    .work_box{
+        @include plain_text_box;
+        width:max-content;
+        position:relative;
+        top:10px;
+        height:1.8em;
+        padding:0.7em;  
+        left:2.2em;
+    }
+    .work{
+        @include plain_word;
+    }
+}
+.line{
+    color:$color1;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1.3em;
+}
+
+.hero_image{
+    display:flex;
+    position:relative;
+    right:-19em;
+
+    .girl{
+        z-index:1;
+        position:relative;
+        top:7em;
+        left:-5.7em;
+        width:18em;
+        height:24em;
+    
+    }
+    .shirt{
+
+        width: 17em;
+        height:22em;
+    }
+}
