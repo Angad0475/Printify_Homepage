@@ -144,3 +144,440 @@ $color1: #39b75d;
         height:22em;
     }
 }
+
+@media (max-width:400px){
+  .hero{
+    display:flex;
+    flex-direction:column;
+
+    .hero_image{
+        margin-left:-15em;
+        .shirt{
+            width:12em;
+            height:15em;
+        }
+        .girl{
+          width:12em;
+          height:15em;
+        }
+    }
+    .box{
+        margin-left:-4.5em;
+
+        .start_box{
+            font-size:17px;
+            width:max-content;
+        }
+        .work_box{
+            font-size:17px;
+            width:max-content;
+        }
+    }
+    .line{
+        margin-left:-2.5em;
+    }
+  }
+  .description{
+    font-size:18px;
+    margin-left:-4em;
+    width:20em;
+  }
+  .heading-title{
+    font-size: 35px;
+    margin-left:-2em;
+  }
+}
+
+@media(max-width:500px) and (min-width:400px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+}
+
+@media(max-width:600px) and (min-width:500px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+}
+
+@media(max-width:700px) and (min-width:600px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(min-width:800px) and (min-width:700px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(max-width:900px) and (min-width:800px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(max-width:1080px) and (min-width:900px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(max-width:1150px) and (min-width:1080px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(max-width:1280px) and (min-width:1080px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}
+
+@media(max-width:1440px) and (min-width:1280px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    
+        .hero_image{
+            margin-left:-15em;
+            .shirt{
+                width:12em;
+                height:15em;
+            }
+            .girl{
+              width:12em;
+              height:15em;
+            }
+        }
+        .box{
+            margin-left:-4.5em;
+    
+            .start_box{
+                font-size:17px;
+                width:max-content;
+            }
+            .work_box{
+                font-size:17px;
+                width:max-content;
+            }
+        }
+        .line{
+            margin-left:-2.5em;
+        }
+      }
+      .description{
+        font-size:18px;
+        margin-left:-4em;
+        width:20em;
+      }
+      .heading-title{
+        font-size: 35px;
+        margin-left:-2em;
+      }
+
+}

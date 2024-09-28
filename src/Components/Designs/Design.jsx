@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Design.scss';
 import piggy from '../../Assets/piggy.jpeg';
 import rocket from '../../Assets/rocket.jpeg';
 import phone from '../../Assets/phone.jpeg';
 import design from'../../Assets/big_photo.jpeg';
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 import custom_products from '../../Assets/custom_products.jpeg';
 
@@ -13,6 +15,39 @@ import on_your_terms from '../../Assets/onyour_terms.jpeg';
 import fulfillment from '../../Assets/fulfillment.jpeg';
 
 function Design() {
+
+  const stickers=[
+    {
+      imgSrc: custom_products,
+      title: "create custom products",
+      desc: "Easily add your designs to a wide range of products using our free tools",
+    },
+    {
+      imgSrc: on_your_terms,
+      title: "Sell on your terms",
+      desc: "You choose the products, sale price, and where to sell",
+    },
+    {
+      imgSrc: fulfillment,
+      title: 'We handle fulfillment',
+      desc: 'Once an order is placed, we automatically handle all the printing and delivery logistics',
+    },
+  ];
+  const [currentIndex, setCurrentIndex]=useState(0);
+
+  const handlePrev=()=>{
+    if(currentIndex >0){
+      setCurrentIndex(currentIndex-1);
+    }
+  };
+
+  const handleNext=()=>{
+    if(currentIndex<stickers.length-1){
+      setCurrentIndex(currentIndex+1);
+    }
+  };
+ 
+  const currentSticker=stickers[currentIndex];
   return (
     <>
     <section className='designs'>
@@ -51,20 +86,18 @@ function Design() {
 
     <section className='stickers'>
         <div className="sticker1">
-        <img className='sticker' src={custom_products}alt=''/>
-        <h2 className='sticker_head'><span>Create</span><br/>custom products</h2>
-        <p className='sticker_desc'>Easily add your designs to a wide range of products using our free tools</p>
+        <img className='sticker' src={currentSticker.imgSrc}alt=''/>
+        <h2 className='sticker_head'><span>{currentSticker.title.split(' ')[0]}</span><br/>{currentSticker.title.split(" ").slice(1).join(' ')}</h2>
+        <p className='sticker_desc'>{currentSticker.desc}</p>
         </div>
-        <div className="sticker2">
-          <img className='sticker' src={on_your_terms} alt=''/>
-          <h2 className='sticker_head'><span>Sell</span><br/>on your terms</h2>
-          <p className='sticker_desc'>You choose the products, sale price, and where to sell</p>
-        </div>
-        <div className="sticker3">
-          <img className='sticker' src={fulfillment} alt=''/>
-          <h2 className='sticker_head'><span>We handle</span><br/>
-          fulfillment</h2>
-          <p className='sticker_desc'>Once an order is placed, we automatically handle all the printing and delivery logistics</p>
+
+        <div className='pagination'>
+          <div>
+          <FaArrowLeftLong onClick={handlePrev} disabled={currentIndex===0}/>
+          </div>
+          <div>
+          <FaArrowRightLong onClick={handleNext} disabled={currentIndex=== stickers.length-1}/>
+          </div>
         </div>
     </section>
 

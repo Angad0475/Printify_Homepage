@@ -154,3 +154,357 @@ $color1: #39b75d;
     }
 }
 
+@media(max-width:400px){
+    .navbar{
+        width: 97%;
+        position:sticky;
+        top:0;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-3.5em;
+      }
+      .nav_logo{
+        font-size:14px;
+      }  
+      .logo_name{
+        font-size:24px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:none;
+      }
+      .logIn{
+        margin-left:-5em;
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:500px) and (min-width:400px){
+    .navbar{
+        width:88%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-3.5em;
+      }
+      .nav_logo{
+        font-size:14px;
+      }  
+      .logo_name{
+        font-size:24px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:none;
+      }
+      .logIn{
+        margin-left:-5em;
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+}
+@media(max-width:600px) and (min-width:500px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-3.5em;
+      }
+      .nav_logo{
+        font-size:14px;
+      }  
+      .logo_name{
+        font-size:24px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:none;
+      }
+      .logIn{
+        margin-left:-5em;
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+}
+@media(max-width:700px) and (min-width:600px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+}
+@media(min-width:800px) and (min-width:700px){
+    .navbar{
+        width: 100%;
+
+      .toggle-btn{
+        font-size:0.5em;
+        width:1em;
+        margin-left:-2.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:900px) and (min-width:800px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:1080px) and (min-width:900px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+        margin-left:-1.8em;
+        width:28em;
+        gap:2.3em;
+
+        li{
+            font-size:15px;
+        }
+        
+
+
+      }
+      .logIn{
+        margin-left:2em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:1150px) and (min-width:1080px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:1280px) and (min-width:1080px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+
+}
+@media(max-width:1440px) and (min-width:1280px){
+    .navbar{
+        width:100%;
+
+      .toggle-btn{
+        font-size:1em;
+        width:3em;
+        margin-left:-1.5em;
+      }
+      .nav_logo{
+        font-size:18px;
+      }  
+      .logo_name{
+        font-size:28px;
+        margin-top:1.2em;
+      }
+      .nav-menu{
+        display:block;
+        display:flex;
+
+
+      }
+      .logIn{
+        margin-left:5em;
+        
+        font-size:17px;
+        width:max-content;
+    }
+    .signIn{
+        margin-left:0em;
+        font-size:17px;
+        width:max-content;
+    }
+    }
+}
