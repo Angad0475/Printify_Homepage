@@ -10,7 +10,7 @@ function Navbar() {
       <div className='toggle-btn'>
       <IoReorderThreeOutline className='toggle'/>
       </div>
-      <div className='nav_logo'>
+      <div className='nav_logo' data-testid='cypress-title'>
         <img className='logo' src={logo} alt=''/>
       </div>
       <div>
